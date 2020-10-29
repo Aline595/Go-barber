@@ -11,7 +11,7 @@ sessionsRouter.post('/', async (req, res) => {
 
     const { user, token } = await AuthenticateUser.execute({
       email,
-      password
+      password,
     });
 
     delete user.password;
