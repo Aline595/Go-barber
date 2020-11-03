@@ -2,15 +2,15 @@
 
 ## Como executar
 
-"""
-$ git clone https://github.com/Aline595/Go-barber
-$ cd gobarber-backend
 
-- Instalar as dependências do projetos
+$ git clone https://github.com/Aline595/Go-barber  
+$ cd gobarber-backend  
 
-$ yarn
+- Instalar as dependências do projetos  
 
-- Executar o projeto
+$ yarn  
 
-$ yarn start
-"""
+- Executar o projeto  
+
+$ yarn start  
+
