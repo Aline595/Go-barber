@@ -42,16 +42,6 @@ usersRouter.patch(
 
       delete user.password;
 
-      /* const userWithoutPassword = {
-        id: user.id,
-        name: user.name,
-        avatar: user.avatar,
-        email: user.email,
-        createdAt: user.createdAt,
-        updatedAt: user.updatedAt,
-      };
-
-      return res.json(userWithoutPassword); */
       return res.json(user);
     } catch (err) {
       return res.status(400).json({ error: err.message });
