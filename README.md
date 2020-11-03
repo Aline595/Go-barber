@@ -11,6 +11,7 @@ $ cd gobarber-backend
 $ yarn  
 
 - Executar o projeto  
+- ligar docker 
 
-$ yarn start  
+$ yarn dev:server
 
