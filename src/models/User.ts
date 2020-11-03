@@ -6,7 +6,7 @@ import {
   UpdateDateColumn,
 } from 'typeorm';
 
-//KISS -> Keep It Simple & Stupid
+// KISS -> Keep It Simple & Stupid
 
 @Entity('users')
 export default class User {
@@ -21,6 +21,9 @@ export default class User {
 
   @Column()
   password: string;
+
+  @Column()
+  avatar: string;
 
   @CreateDateColumn()
   created_at: Date;
