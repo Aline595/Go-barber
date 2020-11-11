@@ -1,11 +1,13 @@
 import React from 'react';
 
 import GlobalStyle from './styles/global';
-import Signin from './pages/Signin/index';
+import SignIn from './pages/Signin/index';
+import SignUp from './pages/Signup/index';
 
 const App: React.FC = () => (
   <>
-    <Signin />
+    <SignIn />
+    <SignUp />
     <GlobalStyle />
   </>
 );
